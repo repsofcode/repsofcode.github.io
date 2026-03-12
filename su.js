@@ -1,4 +1,4 @@
-// GitHub button
+console.log("JS LOADED")
 
 const githubBtn = document.getElementById("githubBtn")
 
