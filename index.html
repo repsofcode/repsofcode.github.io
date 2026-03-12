@@ -3,26 +3,37 @@
 
 <head>
 
-<title>Harsh Sharma | Developer</title>
+<title>Harsh Sharma | Web Developer</title>
 
 <link rel="stylesheet" href="style.css">
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
+
 
 <body>
 
 <nav>
 
-<h2>Harsh Sharma</h2>
+<h2 class="logo">Harsh Sharma</h2>
 
 <ul>
-<li>Home</li>
-<li>About</li>
-<li>Projects</li>
-<li>Contact</li>
+
+<li><a href="#hero">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
 </ul>
 
 </nav>
+
 
 
 <section id="hero">
@@ -36,9 +47,9 @@ using JavaScript, React and Node.js.
 
 <div class="buttons">
 
-<a href="https://github.com/repsofcode">GitHub</a>
+<button id="githubBtn">GitHub</button>
 
-
+<button id="resumeBtn">Resume</button>
 
 </div>
 
@@ -52,7 +63,9 @@ using JavaScript, React and Node.js.
 
 <p>
 I am a developer focused on building modern web applications.
-I have experience with JavaScript, React, Node.js and MongoDB.
+My experience includes JavaScript, React, Node.js and MongoDB.
+I enjoy building practical products and solving real problems
+through code.
 </p>
 
 </section>
@@ -63,18 +76,18 @@ I have experience with JavaScript, React, Node.js and MongoDB.
 
 <h2>Skills</h2>
 
-<ul>
+<div class="skills-container">
 
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>React</li>
-<li>Node.js</li>
-<li>Express</li>
-<li>MongoDB</li>
-<li>Git</li>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">React</div>
+<div class="skill">Node.js</div>
+<div class="skill">Express</div>
+<div class="skill">MongoDB</div>
+<div class="skill">Git</div>
 
-</ul>
+</div>
 
 </section>
 
@@ -91,14 +104,17 @@ I have experience with JavaScript, React, Node.js and MongoDB.
 <h3>Finance Tracker</h3>
 
 <p>
-Full stack application to track income and expenses.
+Full stack web application for tracking income and expenses.
 </p>
 
-<p><strong>Stack:</strong> React, Node.js, MongoDB</p>
+<p class="stack">React • Node.js • MongoDB</p>
 
-<a href="https://github.com/repsofcode/finance_tracker">GitHub</a>
+<button class="projectBtn" data-link="https://github.com/yourusername/finance-tracker">
+View GitHub
+</button>
 
 </div>
+
 
 
 <div class="project">
@@ -106,14 +122,17 @@ Full stack application to track income and expenses.
 <h3>Multi User Task Manager</h3>
 
 <p>
-Task manager with authentication and per-user tasks.
+Task management system with authentication and user-specific tasks.
 </p>
 
-<p><strong>Stack:</strong> Node.js, Express, MongoDB</p>
+<p class="stack">Node.js • Express • MongoDB</p>
 
-<a href="https://github.com/repsofcode/task-manager">GitHub</a>
+<button class="projectBtn" data-link="https://github.com/yourusername/task-manager">
+View GitHub
+</button>
 
 </div>
+
 
 
 <div class="project">
@@ -121,12 +140,14 @@ Task manager with authentication and per-user tasks.
 <h3>YouTube Clone</h3>
 
 <p>
-Frontend clone using React and YouTube API.
+Responsive frontend UI inspired by YouTube using React.
 </p>
 
-<p><strong>Stack:</strong> React, JavaScript</p>
+<p class="stack">React • JavaScript</p>
 
-<a href="#">GitHub</a>
+<button class="projectBtn" data-link="https://github.com/yourusername/youtube-clone">
+View GitHub
+</button>
 
 </div>
 
@@ -147,6 +168,7 @@ Frontend clone using React and YouTube API.
 </section>
 
 
+<script src="script.js"></script>
 
 </body>
 
