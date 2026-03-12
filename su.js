@@ -1,22 +1,12 @@
-// Hero section buttons
+// GitHub button
 
 const githubBtn = document.getElementById("githubBtn")
-const resumeBtn = document.getElementById("resumeBtn")
 
 githubBtn.addEventListener("click", function () {
 
 window.open("https://github.com/repsofcode", "_blank")
 
 })
-
-
-resumeBtn.addEventListener("click", function () {
-
-alert("Resume will be added soon")
-
-})
-
-
 
 
 // Project buttons
