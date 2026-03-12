@@ -113,11 +113,13 @@ transition:0.2s;
 transform:translateY(-6px);
 }
 
+
 .stack{
 font-size:14px;
-margin:10px 0;
+margin:10px 0 20px 0;
 color:#666;
 }
+
 
 
 .projectBtn{
